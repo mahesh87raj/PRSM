@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#850294"
+    tools:context=".MainActivity2">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <TextView
+             android:id="@+id/t1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fillup"
+             android:textSize="25dp"
+             android:textColor="#B01522"
+
+             android:gravity="center"
+             />
+
+
+         <TextView
+             android:id="@+id/t2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the first Name"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the Middle name"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the Last Name"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the password"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the Conform Password"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+
+         <EditText
+             android:id="@+id/E5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the first E-mail"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Select The Gender"
+             android:textSize="25dp"
+             android:textColor="@color/white"
+             />
+         <RadioGroup
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <RadioButton
+                 android:id="@+id/Rd1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Male"
+                 android:textSize="25dp"
+                 android:textColor="@color/white"
+                 android:layout_weight="1"/>
+             <RadioButton
+                 android:id="@+id/Rd2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Female"
+                 android:textSize="25dp"
+                 android:textColor="@color/white"
+                 android:layout_weight="1"/>
+         </RadioGroup>
+
+
+         <TextView
+             android:id="@+id/t9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the Distric"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the State"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+         <TextView
+             android:id="@+id/t11"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter the Country"
+             android:textColor="@color/white"
+             android:textSize="25dp"
+             android:layout_marginTop="10dp"
+             />
+
+         <EditText
+             android:id="@+id/E9"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/white"/>
+
+         <Button
+             android:id="@+id/b1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Submit"
+             android:layout_marginTop="10dp"
+             android:layout_gravity="center"/>
+
+
+
+
+
+
+
+     </LinearLayout>
+   </ScrollView>
+
+
+
+</LinearLayout>
